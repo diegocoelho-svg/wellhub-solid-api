@@ -1,0 +1,30 @@
+{
+  "name": "wellhub-solid-api",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src --out-dir build",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "start": "node build/server.cjs",
+    "start:dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "dotenv": "18.0.2",
+    "fastify": "5.12.5",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.12",
+    "@types/node": "26.6.2",
+    "tsup": "8.5.1",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "ultracite": "7.12.0"
+  }
+}
