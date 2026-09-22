@@ -32,6 +32,9 @@
   "[mdx]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
   "[svelte]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
